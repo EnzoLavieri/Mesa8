@@ -12,6 +12,9 @@ export class User {
   @Column({ unique: true })
   email: string;
 
+  //adicionar dps CPF e Senha
+  //perguntar pro professor pq que criou aitomatico a .idea
+
   @CreateDateColumn()
   createdAt: Date;
 
